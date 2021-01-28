@@ -1,0 +1,75 @@
+body {
+  background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  size: auto;
+}
+
+div { 
+  nav {
+  background: rgb(0,0,0);
+  
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+   p {
+       color: gray;
+   }
+  }
+
+   .footer {
+  background: rgb(0,0,0);
+  text-align: center;
+  padding: 3px;
+  width: auto;
+  height: 120px;
+  
+  .btn {
+    background-color: black;  
+    float:right;
+  }
+   }
+
+
+.card-header {
+  font-family: "comfortaa";
+  color:silver;
+  background-color: black;
+}
+
+
+form {
+  width: 80%;
+  margin: auto;
+}
+ 
+.work {
+    opacity: 70%;
+    border: groove 2px silver;
+    float:right;
+  }
+  .work2 {
+    opacity: 70%;
+    border: groove 2px silver;
+    float: left;
+  }
+
+  @media screen and (min-width: 600px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
