@@ -1,0 +1,220 @@
+body {
+  background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: auto;
+  height: 1080px;
+
+  @media screen and (min-width: 600px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+}
+
+nav {
+  background: rgb(0,0,0);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+
+div { 
+   p {
+       color: gray;
+   }
+   .logo__nombre {
+    text-align: center;
+    color: black;
+    text-shadow: 2px 2px 4px lime;
+    text-transform: uppercase;
+    }
+  .logo__curso {
+    text-align: center;
+    text-transform: s;
+  }  
+
+   }
+   
+  
+
+  .footer {
+    background: rgb(0,0,0);
+    padding: 3px;
+    width: auto;
+    height: 120px;
+    margin: auto;
+    position: sticky;
+  
+   .footer__social {
+    text-align: center;
+   }     
+  
+  .footer__btn {
+    background: black;  
+    float:right;
+  }
+}  
+
+
+.card-header {
+  font-family: "comfortaa";
+  color:silver;
+  background-color: black;
+}
+
+
+form {
+  width: 80%;
+  margin: auto;
+}
+
+    
+   .imagen__work {
+    float: right;
+    opacity: 70%;
+    border: groove 2px silver;
+    }
+
+    .imagen__work2 {
+    float: left;
+    opacity: 70%;
+    border: groove 2px silver;
+    width:"250px";
+    height:"250px";
+  } 
+
+  
+
+/*Efectos*/
+
+.caption-style-1 {
+  list-style-type: none;
+  margin: auto;
+  align-items: center; }
+  .caption-style-1 li {
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden; }
+    .caption-style-1 li:hover .caption {
+      opacity: 1; }
+  .caption-style-1 img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4; }
+  .caption-style-1 .caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out; }
+  .caption-style-1 .blur {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 350px;
+    width: 400px;
+    z-index: 5;
+    position: absolute; }
+  .caption-style-1 .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 375px;
+    height: 350px;
+    text-align: center;
+    top: 100px; }
+    .caption-style-1 .caption-text h1 {
+      text-transform: uppercase;
+      font-size: 24px; }
+
+.content {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 500px; }
+  .content h1 {
+    font-family: "Source Sans Pro",sans-serif;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-weight: 900;
+    font-size: 64px; }
+  .content h2 {
+    font-family: "Source Sans Pro",sans-serif;
+    color: #ecf0f1;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 26px; }
+  .content p {
+    color: #ecf0f1;
+    font-family: "Lato";
+    line-height: 28px;
+    font-size: 15px;
+    padding-top: 50px; }
+
+p.credit {
+  padding-top: 20px;
+  font-size: 12px; }
+
+p a {
+  color: #ecf0f1; }
+  
+
+  #carouselExampleIndicators {
+  .carousel-item {
+  opacity: 65%;
+  width: auto;
+  height: 280px;
+  }
+}
+
+
+.zoom:hover .btn {transform:scale(1.1);}
+.zoom {overflow:hidden;} 
+
+.imagen:hover .work {transform:scale(1.2);}
+.imagen {overflow:hidden;}
+
+.imagen:hover .work2 {transform:scale(1.2);}
+.imagen {overflow:hidden;}
+
+@media screen and (min-width: 600px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+
+
