@@ -4,6 +4,27 @@ body {
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: auto;
   height: 1080px;
+
+  @media screen and (min-width: 600px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
 }
 
 nav {
@@ -77,27 +98,6 @@ form {
   } 
 
   
-
-  @media screen and (min-width: 600px) {
-  body {
-    background: #bbbbbb;
-  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
-  }
-}
-
-@media screen and (min-width: 800px) {
-  body {
-    background: #bbbbbb;
-  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
-  }
-}
-
-@media screen and (min-width: 992px) {
-  body {
-    background: #bbbbbb;
-  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
-  }
-}
 
 /*Efectos*/
 
