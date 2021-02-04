@@ -1,6 +1,5 @@
 body {
-  background: #bbbbbb;
-  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   width: auto;
   height: 1080px;
@@ -9,6 +8,16 @@ body {
 nav {
   background: rgb(0,0,0);
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+}
+main {
+        background:#637DDA;
+	background:url('imagenes/bodypp.jpg');
+	background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: comfortaa;
+    color: silver;
 }
 
 div { 
