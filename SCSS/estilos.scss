@@ -87,7 +87,12 @@ form {
     height:"250px";
   } 
 
-  
+  @media (max-width:320px)  {
+  body {
+    background: #bbbbbb;
+  background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%);
+  }
+}
 
   @media screen and (min-width: 670px) {
   body {
