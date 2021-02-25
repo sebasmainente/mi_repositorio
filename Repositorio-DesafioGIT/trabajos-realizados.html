@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="CSS/estilos.css">
+    <link rel="stylesheet" href="estilosp.css">
     <!-- SEO -->
     <meta name="description" content="Desarrollamos negocios sustentables - Agronegocios adaptados a las nuevas
                 tecnologias de mercado.">
@@ -28,9 +28,9 @@
     <title>Trabajos Realizados</title>
 </head>
 
-<body>
+<body class="trabajosrealizados">
     <header>
-        <nav class="navbar sticky-top navbar-expand-md navbar-dark">
+        <nav class="navbar sticky-top navbar-expand-md text-dark">
                     <a class=" navbar-brand" href="#">SM</a>
                 <button class="navbar-toggler collapsed" type="button" data-toggle="collapse"
                     data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false"
@@ -55,7 +55,7 @@
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Empresas Amigas</a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <a class="dropdown-item" href="empresas-amigas.html" target="blank">Colaboradores</a>
+                                <a class="dropdown-item" href="empresas-amigas.html">Colaboradores</a>
                                 <div class="dropdown-divider"></div>
                                 <a class="dropdown-item" href="https://www.coderhouse.com/"
                                     target="blank">Coderhouse</a>
@@ -146,72 +146,85 @@
                 </div>
             </div>  
             <hr class="featurette-divider">
-
-            <table class="table table-bordered" cellspacing="3px" cellpadding="10px">
-            <thead class="table-dark">
-                    <tr>
-                        <th>Cliente</th>
-                        <th>Tipo de Proceso</th>
-                        <th>Desarrollo</th>
-                        <th>Estado</th>
-                        <th>Balance</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>Yemari Nativa</td>
-                        <td>Marketing</td>
-                        <td>4 Meses</td>
-                        <td>Finalizado</td>
-                        <td>Positivo
-                            <ol>
-                                <li>Auditoria interna Impecable</li><br>
-                                <li>Vision de Crecimiento</li><br>
-                                <li>Posicionamiento en el Mercado</li>
-                            </ol>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>El Resero</td>
-                        <td>Mercados a Futuro</td>
-                        <td>12 Meses</td>
-                        <td>En Proceso
-                            <ol>
-                                <li>Espera rinde de Cosecha Gruesa</li><br>
-                                <li>Se cumplen compromisos Fiscales</li><br>
-                                <li>Sin estructura de Canje</li>
-                            </ol>
-                        </td>
-                        <td>En Proceso</td>
-                    </tr>
-                    <tr>
-                        <td>La Semilla</td>
-                        <td>Marketing</td>
-                        <td>6 Meses</td>
-                        <td>En Proceso
-                            <ol>
-                                <li>Planeamiento Estrategico</li><br>
-                                <li>Reestructuracion de Canales de Venta</li><br>
-                                <li>Mejora en Tiempos de Distribucion</li>
-                            </ol>
-                        </td>
-                        <td>Positivo</td>
-                    </tr>
-                    <tr>
-                        <td>Don Ramon</td>
-                        <td>Planeamiento Comercial</td>
-                        <td>12 Meses</td>
-                        <td>En Proceso
-                            <ol>
-                                <li>Baja predisposiciòn a Cambios</li><br>
-                                <li>Personal con Poca Formacion</li><br>
-                                <li>Estructuras Comerciales de Bajo Control Fiscal</li>
-                            </ol>
-                        </td>
-                        <td>Negativo</td>
-                    </tr>
-                </tbody>
-            </table>
+<div id="accordion navigation">
+    <div class="card">
+        <div class="card-header">
+            <a class="card-link" data-toggle="collapse" href="#collapseOne">
+           Estadisticas
+            </a>
+        </div>
+            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                <div class="card-body">            
+                    <table class="table table-bordered" cellspacing="3px" cellpadding="10px">
+                        <thead class="table-dark">
+                            <tr>
+                                <th>Cliente</th>
+                                <th>Tipo de Proceso</th>
+                                <th>Desarrollo</th>
+                                <th>Estado</th>
+                                <th>Balance</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Yemari Nativa</td>
+                                <td>Marketing</td>
+                                <td>4 Meses</td>
+                                <td>Finalizado</td>
+                                <td>Positivo
+                                    <ol>
+                                        <li>Auditoria interna Impecable</li><br>
+                                        <li>Vision de Crecimiento</li><br>
+                                        <li>Posicionamiento en el Mercado</li>
+                                    </ol>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>El Resero</td>
+                                <td>Mercados a Futuro</td>
+                                <td>12 Meses</td>
+                                <td>En Proceso
+                                    <ol>
+                                        <li>Espera rinde de Cosecha Gruesa</li><br>
+                                        <li>Se cumplen compromisos Fiscales</li><br>
+                                        <li>Sin estructura de Canje</li>
+                                    </ol>
+                                </td>
+                                <td>En Proceso</td>
+                            </tr>
+                            <tr>
+                                <td>La Semilla</td>
+                                <td>Marketing</td>
+                                <td>6 Meses</td>
+                                <td>En Proceso
+                                    <ol>
+                                        <li>Planeamiento Estrategico</li><br>
+                                        <li>Reestructuracion de Canales de Venta</li><br>
+                                        <li>Mejora en Tiempos de Distribucion</li>
+                                    </ol>
+                                </td>
+                                <td>Positivo</td>
+                            </tr>
+                            <tr>
+                                <td>Don Ramon</td>
+                                <td>Planeamiento Comercial</td>
+                                <td>12 Meses</td>
+                                <td>En Proceso
+                                    <ol>
+                                        <li>Baja predisposiciòn a Cambios</li><br>
+                                        <li>Personal con Poca Formacion</li><br>
+                                        <li>Estructuras Comerciales de Bajo Control Fiscal</li>
+                                    </ol>
+                                </td>
+                                <td>Negativo</td>
+                            </tr>
+                        </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    </div>
+            
             <hr class="featurette-divider">
         </div><br>
     </div>
