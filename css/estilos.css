@@ -1,0 +1,143 @@
+.principal, .acercade, .trabajosrealizados, .empresasamigas, .contacto {
+  background-image: url(../imagenes/bodypp2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: monospace;
+  color: whitesmoke; }
+
+.logo {
+  text-align: center;
+  text-transform: uppercase; }
+
+main {
+  font-family: monospace; }
+
+p {
+  font-size: medium; }
+
+td {
+  color: black;
+  font-family: monospace; }
+
+.formulario_de_contacto {
+  margin: auto;
+  width: 800px; }
+
+footer {
+  padding: 3px;
+  width: auto;
+  height: 120px;
+  margin: auto;
+  position: sticky; }
+
+.footer .footer__social {
+  text-align: center;
+  font-family: monospace;
+  color: white; }
+
+.footer .footer__btn {
+  font-family: monospace;
+  float: right; }
+
+/*Efectos*/
+.caption-style-1 {
+  list-style-type: none;
+  margin: auto;
+  align-items: center; }
+  .caption-style-1 li {
+    float: left;
+    padding: 0px;
+    position: relative;
+    overflow: hidden; }
+    .caption-style-1 li:hover .caption {
+      opacity: 1; }
+  .caption-style-1 img {
+    margin: 0px;
+    padding: 0px;
+    float: left;
+    z-index: 4; }
+  .caption-style-1 .caption {
+    cursor: pointer;
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: all 0.45s ease-in-out;
+    -moz-transition: all 0.45s ease-in-out;
+    -o-transition: all 0.45s ease-in-out;
+    -ms-transition: all 0.45s ease-in-out;
+    transition: all 0.45s ease-in-out; }
+  .caption-style-1 .blur {
+    background-color: rgba(0, 0, 0, 0.65);
+    height: 350px;
+    width: 400px;
+    z-index: 5;
+    position: absolute; }
+  .caption-style-1 .caption-text {
+    z-index: 10;
+    color: #fff;
+    position: absolute;
+    width: 375px;
+    height: 350px;
+    text-align: center;
+    top: 100px; }
+    .caption-style-1 .caption-text h1 {
+      text-transform: uppercase;
+      font-size: 24px; }
+
+.content {
+  margin-top: 100px;
+  margin-left: 100px;
+  width: 500px; }
+  .content h1 {
+    font-family: monospace;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-weight: 900;
+    font-size: 64px; }
+  .content h2 {
+    font-family: monospace;
+    color: #ecf0f1;
+    padding: 0px;
+    margin: 0px;
+    font-weight: normal;
+    font-size: 26px; }
+  .content p {
+    color: #ecf0f1;
+    font-family: monospace;
+    line-height: 28px;
+    font-size: 15px;
+    padding-top: 50px; }
+
+p.credit {
+  padding-top: 20px;
+  font-size: 12px; }
+
+p a {
+  color: #ecf0f1; }
+
+#carouselExampleIndicators .carousel-item {
+  opacity: 65%;
+  width: auto;
+  height: 280px; }
+
+.zoom {
+  overflow: hidden; }
+  .zoom:hover .btn {
+    transform: scale(1.1); }
+
+@media screen and (min-width: 600px) {
+  body {
+    background: #bbbbbb;
+    background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%); } }
+
+@media screen and (min-width: 800px) {
+  body {
+    background: #bbbbbb;
+    background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%); } }
+
+@media screen and (min-width: 992px) {
+  body {
+    background: #bbbbbb;
+    background: linear-gradient(90deg, #bbbbbb 0%, #fbfbfb 50%, #bbbbbb 100%); } }
